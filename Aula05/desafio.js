@@ -84,18 +84,22 @@ Ainda com a função acima, imprima a quantidade de páginas de um livro qualque
 usando a frase:
 "O livro [NOME_DO_LIVRO] tem [X] páginas!"
 */
-console.log(`O livro Java como programar tem ${book('Java como programar').numberOfPages} páginas.`)
+
+let bookName = 'Java como programar'
+console.log(`O livro ${bookName} tem ${book('Java como programar').numberOfPages} páginas.`)
 
 /*
 Ainda com a função acima, imprima o nome do autor de um livro qualquer, usando
 a frase:
 "O autor do livro [NOME_DO_LIVRO] é [AUTOR]."
 */
-console.log(`O autor do livro JavaScript usando a cabeça é ${book('JavaScript usando a cabeça').author}.`)
+bookName = 'JavaScript usando a cabeça'
+console.log(`O autor do ${bookName} é ${book('JavaScript usando a cabeça').author}.`)
 
 /*
 Ainda com a função acima, imprima o nome da editora de um livro qualquer, usando
 a frase:
 "O livro [NOME_DO_LIVRO] foi publicado pela editora [NOME_DA_EDITORA]."
 */
-console.log(`O livro C completo e total foi publicado pela editora ${book('C completo e total').publishingCompany}.`)
+bookName = 'C completo e total'
+console.log(`O livro ${bookName} foi publicado pela editora ${book('C completo e total').publishingCompany}.`)
