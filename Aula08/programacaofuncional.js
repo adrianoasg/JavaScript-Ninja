@@ -17,7 +17,7 @@ function sum(x, y) {
     return x + y
 }
 
-// Atribuindo objetos à variáveis
+// Propriedade Name
 
 const func = function func() {}
 
